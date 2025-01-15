@@ -22,15 +22,15 @@ Aqui aprofundamos na interação com usuário usando javascript, e também tivem
 Aprendizados: 
 - Conversão de entradas de texto para números em JS;
 - Manipulação de variáveis;
-- Uso de template strings para formatar saída de daos.
+- Uso de template strings para formatar saída de dados.
 
 **EX004** Manipulação de Strings :
 
   Aqui utilizamos Javascript para capturar o nome do usuário e realizar manipulações básicas de texto.
 - Solicitamos o nome do usuário;
 - Exibimos o número de letras do nome do usuário utilizando nome.length;
-- convertemos e exibimos em maiúsculas com nome.toLocaleUpperCase();
-- convertemos e exibimos em minúscular com nome.ToLocaleLowerCase().
+- Convertemos e exibimos em maiúsculas com nome.toLocaleUpperCase();
+- Convertemos e exibimos em minúscular com nome.ToLocaleLowerCase().
 
 **EX005** Primeiros passos DOM : 
 
