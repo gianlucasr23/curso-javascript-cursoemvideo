@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificar nacionalidade</h1>
+    Informe sua nacionalidade: <input type="text" name="txtnaci" id="txtnaci">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar() {
+            var txtnaci = window.document.querySelector('input#txtnaci'); // Captura o campo de texto
+            var pais = txtnaci.value; // Pega o valor digitado
+            var res = window.document.querySelector ('div#res')// Captura a área de resultados
+            res.innerHTML = `<p> Vivendo em <strong> ${pais}</strong></p>`
+            if (pais.toLowerCase()!= "brasil") {
+                innerHTML += `<p>você é <strong>estrangeiro`
+            } else {
+                res.innerHTML += `<p> você é <strong> Brasileiro` 
+            }
+        }
+    </script>
+</body>
+</html>
+<!--
+    
+        <h1> 
+        *exibe o título nacionalidade na página
+        <input type= "text" name ="txtnaci" id="txtnaci"> ;
+        *campo onde o usuário digita a nacionalidade
+        *O atributo id="txtnaci" permite acessar o campo no Javascript
+        <input type="button" value="Verificar" onclick="verificar()">:
+        * botão onde o usuário clica para adicionar verificação
+        * A propriedade onclick="verificar()" chama a função Javascript verificar ()
+        * <div id = "res >"
+            uma area reservada para exibir o resultado da verificação
+            o id "res" é usado para manipular esse elemento no javascript
+        -->
