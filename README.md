@@ -28,7 +28,7 @@ Aprendizados:
 
   Aqui utilizamos Javascript para capturar o nome do usuário e realizar manipulações básicas de texto.
 - Solicitamos o nome do usuário;
-- Exibimos o número de letras do nome do usuário utilizando nome.lenght;
+- Exibimos o número de letras do nome do usuário utilizando nome.length;
 - convertemos e exibimos em maiúsculas com nome.toLocaleUpperCase();
 - convertemos e exibimos em minúscular com nome.ToLocaleLowerCase().
 
@@ -70,7 +70,7 @@ Aprendizado:
 
 Permite o usuário somar dois números inseridos em campos de input e exibir o resultado na página.
 
-- Em HTML, a página possuí dois campos de entrada (inpu), onde o usuário pode digitar números, um botão que ao ser clicado, chama a função Javascript para somar os números. A página exibe o resultado da soma dentro de uma div com o id res.
+- Em HTML, a página possuí dois campos de entrada (input), onde o usuário pode digitar números, um botão que ao ser clicado, chama a função Javascript para somar os números. A página exibe o resultado da soma dentro de uma div com o id res.
 
 - A função somar() é acionada ao clicar no botão
 - A função obtém os valores dos inputs de número, converte-os para Number, e realiza a soma. 
